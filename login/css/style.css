@@ -1,0 +1,141 @@
+/* Обнуление */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	background-color: #333;
+	color: #fff;
+	font-family: Montserrat;
+	
+}
+
+
+button {
+	background-color: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+.wrapper {
+	min-height: 100%;
+	padding: 50px;
+	position: relative;
+	
+	
+}
+
+/* ------------------ */
+/* ------------------ */
+/* ------------------ */
+/* ------------------ */
+
+.main {
+	background-color: #1f1f1f;
+	border-radius: 10px;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn{
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 24px;
+	transition: background-color 0.5s ease;
+	color: white;
+	background-color: #333;
+	margin: 15px;
+}
+
+.btn:hover{
+	background-color: #9c9c9c;
+	transition: background-color 0.5s ease;
+	cursor: pointer;
+}
+
+.login{
+	width: 300px;
+	height: 30px;
+	border-radius: 10px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.login-l{
+	padding-right: 20px;
+	font-size: 24px;
+}
+
+
+form{
+	width: 100%;
+}
+
+#login-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#user-info{
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+}
+
+h2{
+	text-align: center;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+#user-info p{
+	padding-bottom: 10px;
+}

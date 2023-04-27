@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Форма вводу логіну</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main">
+			<form id="login-form">
+				<div>
+					<label for="login-input" class="login-l">Логін:</label>
+					<input type="text" id="login-input" name="login-input" class="login">
+				</div>
+				<input type="submit" value="Підтвердити" class="btn">
+			</form>
+			<div id="user-info" style="display:none;">
+				<h2>Інформація про користувача</h2>
+				<p>Прізвище: <span id="user-surname"></span></p>
+				<p>Ім'я: <span id="user-name"></span></p>
+				<p>Курс: <span id="user-year"></span></p>
+				<p>Група: <span id="user-group"></span></p>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
